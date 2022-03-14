@@ -57,7 +57,7 @@ nav ul li a:hover {
     height: 35px;
     width: 40px;
     cursor: pointer;
-    background-color: hsl(13, 100%, 96%);
+    background-color: white;
     border: none;
     display: none;
     margin-right: 15px;
