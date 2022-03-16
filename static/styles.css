@@ -117,9 +117,8 @@ nav ul li a:hover {
     justify-content: space-around;
 }
 
-.illustration-intro {
-    max-height: 400px;
-    max-width: auto;
+.grid-column-2 .illustration-intro {
+    max-height: 450px;
 }
 
 .everyone-together, .what {
@@ -247,6 +246,15 @@ p span{
 
 .navigation p {
     text-align: center;
+}
+
+.navigation p button {
+    border: none;
+    background-color: white;
+}
+
+.navigation p button:focus {
+    outline: none;
 }
 
 section .testimonials .testimonial {
@@ -383,6 +391,10 @@ footer .footer .column-3 {
 
     .nav-toggler {
         display: block;
+    }
+
+    .nav-toggler:focus {
+        outline: none;
     }
 
     nav {

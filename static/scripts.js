@@ -29,7 +29,7 @@ function formValidation(event) {
     }
 }
 
-const arrows = document.getElementsByClassName('arrow')
+const movButton = document.getElementsByClassName('movButton')
 const testimonials = document.getElementsByClassName('testimonial')
 let testimonial_page = Math.ceil(testimonials.length / 2);
 let l = 0;
@@ -38,7 +38,7 @@ let maxMove = 199;
 
 let mob_view = window.matchMedia("(max-width: 768px)");
 if (mob_view.matches) {
-    movePer = 102;
+    movePer = 101;
     maxMove = 407;
 }
 
@@ -60,5 +60,5 @@ let left_mover = () => {
         }
     }
 }
-arrows[1].onclick = () => { right_mover(); }
-arrows[0].onclick = () => { left_mover(); }
+movButton[1].onclick = () => { right_mover(); }
+movButton[0].onclick = () => { left_mover(); }
