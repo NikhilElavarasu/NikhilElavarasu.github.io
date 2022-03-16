@@ -474,6 +474,11 @@ footer .footer .column-3 {
         color: hsl(13, 100%, 96%);
     }
 
+    .column-3 div .error {
+        width: 60%;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 800px) {
