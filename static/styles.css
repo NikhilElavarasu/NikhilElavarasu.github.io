@@ -253,10 +253,6 @@ p span{
     background-color: white;
 }
 
-.navigation p button:focus {
-    outline: none;
-}
-
 section .testimonials .testimonial {
     min-width: 47%;
 	height: 90%;
@@ -391,10 +387,7 @@ footer .footer .column-3 {
 
     .nav-toggler {
         display: block;
-    }
-
-    .nav-toggler:focus {
-        outline: none;
+        -webkit-tap-highlight-color: white;
     }
 
     nav {
@@ -450,7 +443,7 @@ footer .footer .column-3 {
 
     footer .footer {
         flex-direction: column-reverse;
-    }
+    }  
 
     .footer .column-1 .logo, .footer .column-3 form{
         display: flex;
