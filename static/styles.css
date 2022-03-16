@@ -251,6 +251,7 @@ p span{
 .navigation p button {
     border: none;
     background-color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 
 section .testimonials .testimonial {
@@ -385,9 +386,9 @@ footer .footer .column-3 {
         margin-left: 10px;
     }
 
-    .nav-toggler {
+    .nav-toggler{
         display: block;
-        -webkit-tap-highlight-color: white;
+        -webkit-tap-highlight-color: transparent;
     }
 
     nav {
