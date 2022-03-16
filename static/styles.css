@@ -231,11 +231,11 @@ section .testimonials{
     margin: 10px auto;
 }
 
-p span{
+p button{
     font-size: 40px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
+    color: black;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -252,6 +252,10 @@ p span{
     border: none;
     background-color: white;
     -webkit-tap-highlight-color: transparent;
+}
+
+.navigation p #mov-button-right[disabled=true], .navigation p #mov-button-left[disabled=true] {
+    color: whitesmoke;
 }
 
 section .testimonials .testimonial {
